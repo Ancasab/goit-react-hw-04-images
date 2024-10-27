@@ -6,8 +6,8 @@ import css from '../../styles.module.css'
 
 export const LoadMoreButton = ({onClick}) => {
   return (
-      <button className={css.Button}type="button" onClick={onClick}>
-          Load more
+    <button className={css.Button}type="button" onClick={onClick}>
+        Load more
     </button>
   )
 }

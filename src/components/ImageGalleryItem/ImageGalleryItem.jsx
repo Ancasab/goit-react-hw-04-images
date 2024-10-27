@@ -2,18 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import css from '../../styles.module.css';
 
-// export const ImageGalleryItem = ({ tags, previewImg, selectedImage }) => {
-//     return (
-//         <li className={css.ImageGalleryItem}>
-//             <img
-//                 className={css.ImageGalleryItemImage}
-//                 src={previewImg}
-//                 alt={tags}
-//                 onClick={selectedImage} // Verifică dacă aceasta este apelată
-//             />
-//         </li>
-//     );
-// };
 
 const ImageGalleryItem = ({ tags, previewImg, selectedImage }) => {
     const handleClick = () => {
